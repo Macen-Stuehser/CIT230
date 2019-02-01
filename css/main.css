@@ -60,9 +60,9 @@ footer {
 }
 
 .rotateimg359 {
-    -webkit-transform:rotate(359deg);
-    -moz-transform: rotate(359deg);
-    -ms-transform: rotate(359deg);
-    -o-transform: rotate(359deg);
-    transform: rotate(359deg);
+    -webkit-transform:rotate(359.5deg);
+    -moz-transform: rotate(359.5deg);
+    -ms-transform: rotate(359.5deg);
+    -o-transform: rotate(359.5deg);
+    transform: rotate(359.5deg);
   }
