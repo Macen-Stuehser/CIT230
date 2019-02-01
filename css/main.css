@@ -6,11 +6,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'ComicPapyrus'; /*a name to be used later*/
+    src: url('ComicPapyrus.ttf'); /*URL to font*/
+}
+
 body {
     font-size: 16px;
     line-height: 32px;
-    src: url(CIT230\Fonts\ComicPapyrus.ttf);
-    font-family: 'Comic Papyrus', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'ComicPapyrus', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url(Fonts\ComicPapyrus.tf);
     color: #208ac7;
     background-color: rgb(255, 231, 231);
 }
