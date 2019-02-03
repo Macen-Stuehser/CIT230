@@ -1,0 +1,101 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+/* * is a wildcard referring to all elements. */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Roboto'; /*a name to be used later*/
+    src: url('https://fonts.google.com/specimen/Roboto'); /*URL to font*/
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Roboto', 'Trebuchet MS', sans-serif;
+    color: #0230ff;
+    background-color: rgb(117, 200, 255);
+    
+}
+
+h1 {
+    font-size: 16px ;
+    color: #0f3796e3;
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 8px solid #0f3796e3;
+    display: flex;  
+}
+
+.Motto{
+    font-style: italic;
+
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1213px;
+    
+}
+
+
+header,
+footer,
+footer a {
+    text-align: center;
+    background-color: rgb(149, 164, 192);
+    color: rgb(25, 0, 255);
+}
+section {
+    border: #700303;
+}
+
+
+
+header img {
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+footer {
+    font-size: 8px;
+}
+
+nav{
+    text-align: left;
+    display: inline-flex;
+}
+
+p.groove {border-style: groove;}
+
+.image-cropper {
+    max-width: 200px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-cropper img{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%; 
+    margin: 0 0 0 -20%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+}
