@@ -17,7 +17,7 @@ body {
     line-height: 32px;
     font-family: 'Roboto', 'Trebuchet MS', sans-serif;
     color: #0230ff;
-    background-color: rgb(117, 200, 255);
+    background-color: #75c8ff;
     
 }
 
@@ -54,7 +54,7 @@ header,
 footer,
 footer a {
     text-align: center;
-    background-color: rgb(149, 164, 192);
+    background-color: #95a4c0;
     color: rgb(25, 0, 255);
 }
 section {
