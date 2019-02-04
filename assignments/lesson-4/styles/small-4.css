@@ -23,14 +23,23 @@ body {
 
 }
 
-h1 {
+h1,h3 {
     font-size: 32px;
     color: #0f3796e3;
     text-align: center;
     display: flex;
 }
 
-h2 {
+.carp {
+    display: flex;
+    float: right;
+    max-width: 400px;
+    height: auto;
+    margin: auto
+
+}
+
+h2,h4 {
     font-size: 24px;
     text-align: center;
     border-bottom: 8px solid #0f3796e3;
