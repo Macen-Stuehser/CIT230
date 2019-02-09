@@ -1,0 +1,144 @@
+@media only screen and (min-width: 500px) {
+
+
+    .image-cropper {
+        position: relative;
+        top: 3rem;
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 64px;
+        text-align: center;
+        margin-top: 0px;
+
+
+    }
+
+    header {
+        margin-bottom: 0px;
+        max-height: 18rem;
+        /* padding-top: 2px; */
+
+
+    }
+
+    header,
+    main,
+    footer {
+        margin: 1.25rem auto;
+        padding: .5rem;
+        max-width: 68rem;
+        text-align: center;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+
+
+    .dropdown {
+        display: none;
+    }
+
+    nav.fixed-menu {
+        display: inherit;
+        margin-bottom: 12px;
+    }
+
+    .fixed-menu ul {
+        background-color: rgba(89, 109, 224, 0.664);
+
+    }
+
+    .fixed-menu ul li {
+        display: inline-block;
+        color: rgb(95, 108, 180);
+    }
+
+    .start .climate {
+        float: left;
+        position: relative;
+        left: 12%;
+        top: .5rem;
+    }
+
+    .start .carp {
+        float: right;
+    }
+
+
+
+    .forecast {
+        display: block;
+
+    }
+
+    .aForecast {
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+        width: 70%;
+        max-height: 233px;
+        border-top: 3px;
+        border-top-color: darkblue
+    }
+
+    .br8kaleg {
+        display: none;
+    }
+
+    article {
+        text-align: center;
+
+
+    }
+
+    article .aDuck {
+        max-height: 200px;
+        max-width: 300px;
+        float: right;
+        display: flex;
+        margin-left: 12px;
+
+    }
+
+
+    article p {
+        display: block;
+        /* float: left; */
+    }
+
+    iframe {
+        position: relative;
+        right: 600px;
+        bottom: 120px;
+    }
+
+    section {
+        max-width: 70%;
+        float: right;
+    }
+
+
+    footer {
+        min-width: 58%;
+        text-align: center;
+        text-anchor: middle;
+        position: relative;
+        top: 148px;
+    }
+
+    footer p {
+        position: relative;
+        left: 20rem;
+    }
+
+
+
+
+
+
+
+
+
+}
