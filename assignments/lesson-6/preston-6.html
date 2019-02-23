@@ -8,7 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small-6.css">
-    <link rel="stylesheet" href="styles/large-6 .css">
+    <link rel="stylesheet" href="styles/large-6.css">
+
+
     <title>Preston | Storm Search</title>
 
 </head>
@@ -26,8 +28,8 @@
 
     <main>
         <nav class="dropdown">
-            <button class="dropbtn">&#9776;</button>
-            <ul class="drop-menu">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
 
                 <li><a href="#">Home</a></li>
                 <li><a href="#" class="page">Preston</a></li>
@@ -95,14 +97,22 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28164.92801453913!2d-111.89038486187125!3d42.09733160988716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549739183658"></iframe>
         </section>
 
-
+        <figure>
+            <img src="images/cit230_image_franklinSmall.jpg" alt="Photo of Preston, ID"
+            srcset="cit230_image_franklinSmall.jpg 200w, images/cit230_image_franklinOriginal.jpg 2200w">
+            <figcaption>Preston!</figcaption>
+</figure>
 
 
     </main>
     <footer>
-        <p>&copy; 2019 | Macen Stuehser &#124; <a href="https://macen-stuehser.github.io/CIT230/">CIT-230 Assignments</a>
+        <p><span id="date"></span> | &copy; 2019 | Macen Stuehser &#124; <a href="https://macen-stuehser.github.io/CIT230/">CIT-230
+                Assignments</a>
         </p>
     </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>
