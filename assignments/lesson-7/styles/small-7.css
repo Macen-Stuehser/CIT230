@@ -1,0 +1,286 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+/* * is a wildcard referring to all elements. */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red !important; */
+
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    /*a name to be used later*/
+    src: url('https://fonts.google.com/specimen/Roboto');
+    /*URL to font*/
+}
+
+
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Roboto', 'Trebuchet MS', sans-serif;
+    color: #0230ff;
+    background-color: #75c8ff;
+    overflow-x: hidden;
+}
+
+h1,
+h3 {
+    font-size: 32px;
+    color: #0f3796e3;
+    text-align: center;
+    display: inline-flex;
+}
+
+.Motto {
+    font-style: italic;
+
+}
+
+.start .carp {
+    display: inline-flex;
+    float: right;
+    max-width: 400px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.climate {
+    display: inline;
+    text-align: center;
+
+}
+
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 8px solid #0f3796e3;
+    display: inline-flex;
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    left: 14px;
+    display: block;
+    border-bottom: #0230ff;
+
+}
+
+article {
+    margin-top: 1rem;
+}
+
+h5 {
+    font-size: 24px;
+    border-bottom: 8px solid #0f3796e3;
+    
+}
+
+header{
+    display: flex;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 32rem;
+    text-align: center;
+}
+
+main {
+    padding-top: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+header,
+footer,
+footer a {
+    text-align: center;
+    background-color: #95a4c0;
+    color: rgb(25, 0, 255);
+}
+
+section {
+    border: #700303;
+}
+
+
+
+header img {
+    width: auto;
+    height: auto;
+    float: right;
+
+}
+
+footer {
+    font-size: 12px;
+}
+
+nav {
+    text-align: center;
+    display: inline-flex;
+
+}
+
+.dropbtn {
+    margin: .2rem 1%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(29, 49, 158);
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(95, 124, 253); */
+}
+
+nav ul li {
+    background-color: rgb(95, 124, 253);
+}
+
+
+nav ul li a {
+    display: flex;
+    padding: 12px 8px;
+    min-width: 99%;
+    text-decoration: none;
+    color: rgba(27, 18, 104, 0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+
+nav ul li a.page {
+    background-color: rgba(2, 14, 122, 0.247);
+}
+
+
+nav ul li a:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+
+p.groove {
+    border-style: groove;
+}
+
+.image-cropper {
+    max-width: 200px;
+    height: auto;
+    position: relative;
+    /* left: 20%; */
+    overflow: hidden;
+}
+
+.image-cropper img {
+    display: flex;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    margin: 0 0 0 -20%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.dropdown {
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    min-width: 99%;
+}
+
+/* .dropdown {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    border: #0230ff 2px;
+} */
+
+/* .drop-menu li {
+    display: block;
+    
+} */
+
+
+.hide {
+    display: none;
+    z-index: 1;
+}
+
+
+
+nav.fixed-menu {
+    display: none;
+}
+
+.forecast {
+    display: none;
+}
+
+.aDuck {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+iframe {
+    /* width="400" height="300" frameborder="0" style="border:0" allowfullscreen */
+    margin-top: .4rem;
+    max-width: 355px;
+    max-height: 300px;
+    border: 0px;
+    border-style: none;
+    right: .5rem;
+
+}
+
+.gallery{
+    display: grid;
+    grid-row-gap: 1.2rem;
+    grid-template-columns: 1fr;
+    color: #0f3796e3;
+}
+
+.gallery figure {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+    border-radius: .1rem;
+}
+
+.gallery img{
+    max-width: 100%;
+    border-radius: .3rem;
+}
+
+.gallery figcaption {
+    text-align: center;
+    color:  rgb(0, 68, 59);
+    padding: .5rem;
+    font-size: 1.3rem;
+}
