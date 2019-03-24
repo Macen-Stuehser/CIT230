@@ -7,6 +7,12 @@
         margin-top: 0px;
     }
 
+    /* .town{
+        display: grid;
+        margin: 0 1rem 1rem 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    } */
+
     .headflex{
         display: flex;
         flex-direction: column;
@@ -158,11 +164,13 @@
         display: grid;
         margin: 0 1rem 1rem 1rem;
         grid-template-columns: repeat(3, 1fr);
+        align-items: center;
     }
 
     .gallery figure:hover {
     box-shadow: .2rem .2rem 1rem rgb(165, 165, 165);
     }
+
 
 
 
