@@ -1,0 +1,153 @@
+@media only screen and (min-width:420px) {
+    .image-cropper {
+        position: relative;
+        margin-top: 0
+    }
+
+    h1 {
+        font-size: 34px;
+        margin-top: 10px
+    }
+
+    h2,
+    .forecast,
+    nav.fixed-menu {
+        display: inline-flex
+    }
+
+    h2 {
+        font-size: 24px
+    }
+
+    h1,
+    header {
+        justify-content: center
+    }
+
+    main {
+        margin-top: 0;
+        margin-bottom: -175px
+    }
+
+    footer,
+    header,
+    main {
+        margin: 1.25rem auto;
+        padding: .5rem;
+        max-width: 68rem
+    }
+
+    .dropdown {
+        display: none
+    }
+
+    .fixed-menu,
+    h3,
+    header {
+        display: flex
+    }
+
+    h3 {
+        justify-content: center
+    }
+
+    nav.fixed-menu {
+        justify-content: flex-start;
+        margin-bottom: 12px;
+        flex-wrap: nowrap
+    }
+
+    .fixed-menu ul {
+        background-color: rgba(89, 109, 224, .664)
+    }
+
+    .fixed-menu ul li {
+        display: inline-flex;
+        color: #5f6cb4
+    }
+
+    .start .climate {
+        float: left;
+        position: relative;
+        left: 12%;
+        top: .5rem
+    }
+
+    .start .carp {
+        float: right
+    }
+
+    .forecast{
+        justify-content: space-around;
+        border: black;
+        border-width: 3px;
+        flex-direction: column;
+    }
+
+    .aForecast {
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+        max-height: 233px;
+        border-top: 3px;
+        border-top-color: #00008b;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .br8kaleg {
+        display: none
+    }
+
+    article,
+    h1,
+    h2,
+    header,
+    main {
+        text-align: center;
+        justify-content: center;
+    }
+
+    article .aDuck {
+        max-height: 200px;
+        max-width: 300px;
+        float: right;
+        display: flex;
+        margin-left: 12px
+    }
+
+    article p {
+        display: block
+    }
+
+    footer,
+    iframe {
+        position: relative
+    }
+
+    iframe {
+        right: 0
+    }
+
+    section {
+        max-width: 70%;
+        display: inline;
+        align-self: auto
+    }
+
+    footer {
+        min-width: 58%;
+        text-align: center;
+        text-anchor: middle;
+        top: 148px;
+        font-size: 14px
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 1rem 1rem;
+        padding: 0;
+        grid-column-gap: 1rem
+    }
+}

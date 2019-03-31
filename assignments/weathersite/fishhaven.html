@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Macen Stuehser">
+    <meta name="description" content="Local forcast for residents of the Fish Haven, ID area.">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+
+
+    <title>Fish Haven |Fish Haven Storm Forecast | Storm Search</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="image-cropper">
+            <img src="images/zap.jpg" class="rounded" alt="Nature can be rather striking" />
+        </div>
+        <div class="headFlex">
+        <h1>Storm Search</h1><br>
+        <div class="Motto">
+            <h2>Finding dangerous weather before it finds you.</h2>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <nav class="dropdown">
+            <ul>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#" class="page">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            </ul>
+        </nav>
+
+        <nav class="fixed-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="#"class="page">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <h3>Fish Haven, Idaho</h3> <br>
+        <div class="start">
+            <div class="carp">
+                <img src="images/fishhaven.jpg" alt="Fishhold.">
+            </div>
+
+            <!-- <br><br><br> -->
+
+
+
+            <h2 id='weatherSummaryHeader'>Weather Summary</h2>
+            <section id='summary'>
+                <!-- <h2 id='weatherSummaryHeader'>Weather Summary</h2> -->
+                <img id='icon' src='#' alt='wicon'><br>
+                <span>Current Condition:</span>
+                <span id ='condition'> </span><br>
+                <span>Current Temperature:</span>
+                <span id ='current-temp'>&deg;</span><br>
+                <span>Humidity:</span>
+                <span id ='humidity'></span><br>
+                <span>Wind Speed:</span>
+                <span id ='windSpeed'></span>
+            </section>
+            <br><br>
+            <div class="forecast">
+            <h2>5-day Forecast</h2><br>
+
+                <div class="aForecast">
+                
+                <table>
+                    <tr>
+                        <th id='day0'>Day1</th>
+                        <th id='day1'>Day2</th>
+                        <th id='day2'>Day3</th>
+                        <th id='day3'>Day4</th>
+                        <th id='day4'>Day5</th>
+                    </tr>
+                    <tr>
+                        <td id='temp0'>1</td>
+                        <td id='temp1'>1</td>
+                        <td id='temp2'>1</td>
+                        <td id='temp3'>1</td>
+                        <td id='temp4'>1</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <article>
+            <!-- <div class="br8kaleg"> <br><br></div> -->
+            <h5>Editorial Article</h5>
+            <img src="images/fishhavenplanes.jpg" class="aDuck" alt="Behold">
+            <p>Look at them, they come to this place when they know they are not pure. Tenno use the keys, but they are
+                mere trespassers. Only I, Vor, know the true power of the Void. I was cut in half, destroyed, but
+                through its Janus Key, the Void called to me. It brought me here and here I was reborn. We cannot blame
+                these creatures, they are being led by a false prophet, an impostor who knows not the secrets of the
+                Void. Behold the Tenno, come to scavenge and desecrate this sacred realm. My brothers, did I not tell
+                of this day? Did I not prophesize this moment? Now, I will stop them. Now I am changed, reborn through
+                the energy of the Janus Key. Forever bound to the Void. Let it be known, if the Tenno want true
+                salvation, they will lay down their arms, and wait for the baptism of my Janus key. It is time. I will
+                teach these trespassers the redemptive power of my Janus key. They will learn its simple truth. The
+                Tenno are lost, and they will resist. But I, Vor, will cleanse this place of their impurity.</p>
+
+        </article>
+
+        <section><br><br>
+            <h6>Contact Us</h6>
+            <p class="groove"> If you want to contact us for more information, please look at this placeholder info</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5926.479391985911!2d-111.40049067139357!3d42.03804016683941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish+Haven%2C+ID+83287!5e0!3m2!1sen!2sus!4v1553972436782!5m2!1sen!2sus"></iframe>"></iframe>
+        </section>
+        <figure>
+            <img src="images/fishhavenrbow.jpg" alt="Fish Haven, ID" srcset="images/fishhavenrbow.jpg 200w, images/fishhavenrbow.jpg 2200w">
+            <figcaption>Fish Haven</figcaption>
+</figure>
+
+
+    </main>
+    <footer>
+        <p><span id="date"></span> | &copy; 2019 | Macen Stuehser &#124; <a href="https://macen-stuehser.github.io/CIT230/">CIT-230
+                Assignments</a>&#124;
+                <a href="https://openweathermap.org/city/5604473">Open Weather Maps</a>
+        </p>
+    </footer>
+    <script src="scripts/weatherapi-fishhaven.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>
