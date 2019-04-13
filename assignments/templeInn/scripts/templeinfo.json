@@ -1,0 +1,107 @@
+{
+    "temples": [{
+            "name": "São Paulo Brazil Temple",
+            "address": "Avenida Professor Francisco Morato, Caxingui, 05512-900–São Paulo–São Paulo, Brazil",
+            "telephone": "(+55) 11-3723-7600",
+            "email": "Log in to lds.org to send email to temple",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No Patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "1 March 1975  - Announcement",
+                "20 March 1976 - Groundbreaking",
+                "30 October–2 November 1978 - Dedicated"
+
+            ],
+            "ordinanceSchedule": "Visit LDS.org to view ordinance schedule - To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (39) 06-9480-5050",
+            "templeClosureSchedule": [
+                "Monday, 12 August 2019 - Monday, 26 August 2019",
+                "Saturday, 7 September 2019",
+                "Saturday, 5 October 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
+            ]
+        },
+        {
+            "name": "Washington DC Temple",
+            "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 , United States",
+            "telephone": "(+1) 301-588-0650",
+            "email": "Log in to lds.org to send email to temple",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No Patron housing available",
+                "No distribution center nearby"
+            ],
+            "history": [
+                "15 November 1968 - Announcement",
+                "7 December 1968 - Groundbreaking",
+                "19–22 November 1974 - Dedicated"
+            ],
+            "ordinanceSchedule": "Visit LDS.org to view ordinance schedule - To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (33) 970-73-70-00",
+            "templeClosureSchedule": [
+                "Temple is currently under renovation, and will be closed. We are sorry for the inconvienace"
+            ]
+        },
+        {
+            "name": "Detroit Michigan Temple",
+            "address": "37425 Woodward Avenue Bloomfield Hills, Michigan  48304",
+            "telephone": "(+1) 248-593-0690",
+            "email": "Log in to lds.org to send email to temple",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No Distribution center nearby"
+            ],
+            "history": [
+                "10 August 1998  - Announcement",
+                "10 October 1998 - Groundbreaking",
+                "23–24 October 1999    - Dedicated"
+
+            ],
+            "ordinanceSchedule": "Visit LDS.org to view ordinance schedule - To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (852) 2339-8100",
+            "templeClosureSchedule": [
+                "Tuesday, 7 May 2019 - Monday, 3 June 2019",
+                "Thursday, 4 July 2019",
+                "Saturday, 17 August 2019",
+                "Saturday, 5 October 2019",
+                "Monday, 11 November 2019 - Tuesday, 26 November 2019",
+                "Wednesday, 27 November 2019 - Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        },
+        {
+            "name": "Salt Lake City Temple",
+            "address": "50 W North Temple St, Salt Lake City UT 84150-9709, United States",
+            "telephone": "(1) 801-240-2640",
+            "email": "Log in to lds.org to send email to temple",
+            "services": [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "28 July 1847 - Announced",
+                "14 February 1853 - Groundbreaking",
+                "6 April 1893 - Dedicated — dedicatory prayer"
+            ],
+            "ordinanceSchedule": "Visit LDS.org to view ordinance schedule - To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 801-240-2640",
+            "templeClosureSchedule": [
+                "Tuesday, 2 July 2019 - Monday, 15 July 2019",
+                "Wednesday, 24 July 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019 - Friday, 29 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019"
+            ]
+        }
+    ]
+}

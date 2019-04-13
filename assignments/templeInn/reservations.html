@@ -1,0 +1,93 @@
+<!doctype HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Temple Inn" content="Information about our hotel services">
+    <meta name="Author" content="Macen Stuehser">
+    <title>Temple Inn and Suites: Reservations</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- STYLE SHEETS -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <!--JAVASCRIPT-->
+    <script src="scripts/hamburger.js"></script>
+
+</head>
+
+<body>
+
+    <header class="fixed">
+        <img src="images/logo.png" alt="Website Logo">
+        <div>
+            <h1>Temple Inn And Suites</h1>
+            <h2>Helping you do the good work</h2>
+        </div>
+    </header>
+
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li class="active"><a href="reservations.html">Book a Reservation</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="https://www.lds.org/?lang=eng">LDS Church Website</a></li>
+        </ul>
+    </nav>
+
+    <main class="form">
+        <h1>Reserve Your Stay Today!</h1>
+        <form method="get" action="home.html">
+            <fieldset>
+                <!-- <legend>Help us help you!</legend> -->
+                <label class="top">Your Full Name <input type="text" name="fname" required
+                        pattern="[A-Za-z].{2,}"></label>
+                <label class="top">Email <input type="email" name="email"
+                        placeholder="totallyARealAddress@gmail.jpg"></label>
+                <label class="top">Phone Number <input type="tel" name="phone" placeholder="481-516-2342"
+                        required></label>
+                <label Class="top">Home Address <input type="text" name="from"></label>
+                <label class="top">Destination Temple
+                    <select>
+                        <option value selected disabled="Select Location...">Select Location</option>
+                        <option value="DC">Washington, DC</option>
+                        <option value="Brazil">Sao Paulo, Brazil</option>
+                        <option value="Detroit">Detroit, MI</option>
+                        <option calue="Salt Lake City">Salt Lake City, UT</option>
+                    </select>
+                </label>
+
+                <label class="top"> Desired Date<input type="date" name="stayDate"></label>
+                <label class="top"> Suite Style
+                    <select>
+                        <option value selected disabled="Please select">Choose one</option>
+                        <option value="regular">Regular, 1 Queen Bed</option>
+                        <option value="double">Double, 2 Twin Beds</option>
+                    </select>
+                </label>
+                <label class="top"> Rooms Required <input type="text" name="rooms"></label>
+
+            </fieldset>
+
+
+            <input type="submit" value="Book Reservation" class="submit">
+
+
+
+
+
+        </form>
+    </main>
+
+
+</body>
+
+</html>
