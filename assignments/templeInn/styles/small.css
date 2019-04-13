@@ -1,1 +1,223 @@
-html{background-color:#28473a}*{box-sizing:border-box}h1,h2{font-family:'Amiri',serif}header{padding:.5rem 2%;background-color:#3e7c7c;display:block;grid-template-columns:75px auto}header img{float:left;margin-right:10px;width:50px}header h1{margin:0;font-size:1.5rem;font-family:'Oswald',sans-serif;margin-top:.5rem}header h2{margin:0;font-weight:400;font-size:1rem}nav button{margin:.21rem 2%;background-color:#778ff2;border:0;font-size:1.7rem}nav{background-color:#058d59}#about p,nav ul{text-align:center}nav ul{list-style-type:none;margin:0;padding:0}nav ul li a{display:flex;justify-content:center;color:#eee;padding:.5rem 0;text-decoration:none;font-size:1.2rem}nav ul li a:hover{background-color:#92e7a0;color:#000}nav ul li.active a{background-color:#195c3c;color:#fff}.current,nav ul.hide{display:none}header,nav,p{font-family:'Amiri',sans-serif}div.service,main{margin:auto;padding:2%}main{background-color:#88a394;font-size:1rem}main.form{background-color:#cecece}div.service{font-size:1.3rem}#about p{font-size:20px;padding:2%}.conditions,.templeinfo,div.temple_photos{display:flex;flex-wrap:wrap}div.temple_photos figure{flex-basis:95%;margin:1rem 2.3%}div.temple_photos figure img,figure img,img{width:100%}#about p,img{margin:auto}.conditions,.templeinfo{justify-content:space-around}.templeinfo article{width:400px;margin:2rem 2%;padding:8px;border:solid #05668d}.templeinfo h2{margin-top:0;margin-bottom:10px;text-align:center}.templeinfo p{margin-bottom:8px}.templeinfo li{font-size:small;margin-bottom:5px}.templeinfo article img{display:flex;margin:0 auto;height:auto;width:380px}.conditions{justify-content:space-between}.temple{padding:5px}article h1{margin:12px}article{margin:8px}figure{display:block;max-width:100%;margin:0}.contact,figcaption{font-family:'Amiri',sans-serif}figcaption{text-align:center}form div,form label.top{display:block;padding:.75rem;color:#000;font-size:1.2rem}.contact{display:block;width:100%;margin:0;background-color:#5b9e6c}.fixed:after{content:"";display:table;clear:both}
+html {
+  background-color: #32cc72
+}
+
+* {
+  box-sizing: border-box
+}
+
+h1,
+h2 {
+  font-family: 'Amiri', serif
+}
+
+header {
+  padding: .5rem 2%;
+  background-color: #3e7c7c;
+  display: block;
+  grid-template-columns: 75px auto
+}
+
+header img {
+  float: left;
+  margin-right: 10px;
+  width: 50px
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: 'Amiri', sans-serif;
+  margin-top: .5rem
+}
+
+header h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem
+}
+
+nav button {
+  margin: .21rem 2%;
+  background-color: #778ff2;
+  border: 0;
+  font-size: 1.7rem
+}
+
+nav {
+  background-color: #058d59
+}
+
+#about p,
+nav ul {
+  text-align: center
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+nav ul li a {
+  display: flex;
+  justify-content: center;
+  color: #eee;
+  padding: .5rem 0;
+  text-decoration: none;
+  font-size: 1.2rem
+}
+
+nav ul li a:hover {
+  background-color: #92e7a0;
+  color: #000
+}
+
+nav ul li.active a {
+  background-color: #195c3c;
+  color: #fff
+}
+
+.current,
+nav ul.hide {
+  display: none
+}
+
+header,
+nav,
+p {
+  font-family: 'Amiri', sans-serif
+}
+
+div.service,
+main {
+  margin: auto;
+  padding: 2%
+}
+
+main {
+  background-color: #88a394;
+  font-size: 1rem
+}
+
+main.form {
+  background-color: #cecece
+}
+
+div.service {
+  font-size: 1.3rem
+}
+
+#about p {
+  font-size: 20px;
+  padding: 2%
+}
+
+.conditions,
+.templeinfo,
+div.temple_photos {
+  display: flex;
+  flex-wrap: wrap
+}
+
+div.temple_photos figure {
+  flex-basis: 95%;
+  margin: 1rem 2.3%
+}
+
+div.temple_photos figure img,
+figure img,
+img {
+  width: 100%
+}
+
+#about p,
+img {
+  margin: auto
+}
+
+.conditions,
+.templeinfo {
+  justify-content: space-around
+}
+
+.templeinfo article {
+  width: 400px;
+  margin: 2rem 2%;
+  padding: 8px;
+  border: solid #05668d
+}
+
+.templeinfo h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center
+}
+
+.templeinfo p {
+  margin-bottom: 8px
+}
+
+.templeinfo li {
+  font-size: small;
+  margin-bottom: 5px
+}
+
+.templeinfo article img {
+  display: flex;
+  margin: 0 auto;
+  height: auto;
+  width: 380px
+}
+
+.conditions {
+  justify-content: space-between
+}
+
+.temple {
+  padding: 5px
+}
+
+article h1 {
+  margin: 12px
+}
+
+article {
+  margin: 8px
+}
+
+figure {
+  display: block;
+  max-width: 100%;
+  margin: 0
+}
+
+.contact,
+figcaption {
+  font-family: 'Amiri', sans-serif
+}
+
+figcaption {
+  text-align: center
+}
+
+form div,
+form label.top {
+  display: block;
+  padding: .75rem;
+  color: #000;
+  font-size: 1.2rem
+}
+
+.contact {
+  display: block;
+  width: 100%;
+  margin: 0;
+  background-color: #5b9e6c
+}
+
+.fixed:after {
+  content: "";
+  display: table;
+  clear: both
+}
