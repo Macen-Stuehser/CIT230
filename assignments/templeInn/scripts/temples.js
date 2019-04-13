@@ -7,7 +7,7 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function () {
-    var temples = request.response;
+    var templeinfo = request.response;
     showData(templeinfo);
 }
 
